@@ -1,0 +1,37 @@
+/*
+  Design tokens for the seminary site.
+  Keeping every color/font/spacing value here means changing the
+  seminary's brand later is a one-file edit, not a find-and-replace
+  across 20 component files.
+*/
+:root {
+  /* Colors */
+  --color-ink: #1b2a4a;
+  --color-ink-light: #2f4270;
+  --color-parchment: #faf6ec;
+  --color-parchment-dark: #f0e9d8;
+  --color-oxblood: #7a2e2e;
+  --color-oxblood-dark: #5f2323;
+  --color-gold: #b08d3e;
+  --color-charcoal: #2b2b28;
+  --color-white: #ffffff;
+  --color-border: #e3dac6;
+
+  /* Typography */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Spacing scale */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+
+  /* Layout */
+  --max-width: 1180px;
+  --radius: 6px;
+  --shadow-sm: 0 1px 3px rgba(27, 42, 74, 0.08);
+  --shadow-md: 0 8px 24px rgba(27, 42, 74, 0.12);
+}

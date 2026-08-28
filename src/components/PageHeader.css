@@ -1,0 +1,19 @@
+.page-header {
+  background-color: var(--color-ink);
+  padding: var(--space-xl) 0 var(--space-lg);
+}
+
+.page-header h1 {
+  color: var(--color-white);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  margin-bottom: var(--space-xs);
+}
+
+.page-header p {
+  color: #c7cee3;
+  max-width: 60ch;
+}
+
+.page-header .eyebrow {
+  color: var(--color-gold);
+}

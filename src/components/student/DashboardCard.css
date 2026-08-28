@@ -1,0 +1,31 @@
+.dashboard-card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  border-left: 4px solid var(--color-gold);
+}
+
+.dashboard-card--warning {
+  border-left-color: var(--color-oxblood);
+}
+
+.dashboard-card__icon {
+  font-size: 1.6rem;
+  color: var(--color-ink);
+}
+
+.dashboard-card__value {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.dashboard-card__label {
+  font-size: 0.85rem;
+  color: #6b6858;
+}

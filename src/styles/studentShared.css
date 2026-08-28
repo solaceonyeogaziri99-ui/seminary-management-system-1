@@ -1,0 +1,91 @@
+/*
+  Styles shared by more than one student portal page live here rather
+  than in a single page's CSS file. Any class used on 2+ pages
+  (like the ".dashboard-panel" card wrapper) belongs here — keeping
+  it in just one page's CSS file would make that page an invisible
+  dependency for every other page using the same class.
+*/
+
+.dashboard-panel {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.dashboard-panel h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-sm);
+}
+
+.dashboard-panel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-sm);
+}
+
+.dashboard-panel__header h3 {
+  margin-bottom: 0;
+}
+
+.dashboard-panel__header a {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-oxblood);
+}
+
+/* Generic modal, used for placeholders like "payment coming soon" */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(27, 42, 74, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-md);
+  z-index: 100;
+}
+
+.modal {
+  background-color: var(--color-white);
+  border-radius: var(--radius);
+  padding: var(--space-lg);
+  max-width: 420px;
+  width: 100%;
+  box-shadow: var(--shadow-md);
+}
+
+.modal h3 {
+  margin-bottom: var(--space-sm);
+}
+
+.modal p {
+  color: #55524a;
+  font-size: 0.95rem;
+  margin-bottom: var(--space-md);
+}
+
+/* Generic vertical list of cards, used for notifications on both the
+   Dashboard preview and the full Notifications page */
+.dashboard-notifications {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* Generic small meta line of text under a page toolbar */
+.page-meta {
+  font-size: 0.92rem;
+  color: #55524a;
+}
+
+.page-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}

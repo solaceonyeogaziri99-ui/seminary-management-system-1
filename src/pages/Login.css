@@ -1,0 +1,121 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-ink);
+  padding: var(--space-md);
+}
+
+.login-card {
+  background-color: var(--color-parchment);
+  border-radius: var(--radius);
+  width: 100%;
+  max-width: 400px;
+  padding: var(--space-xl) var(--space-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.login-card__brand {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.login-card__motif {
+  width: 60px;
+  margin: 0 auto var(--space-sm);
+}
+
+.login-card__brand h1 {
+  font-size: 1.6rem;
+}
+
+.login-card__brand p {
+  color: #6b6858;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.login-card label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  margin-top: var(--space-xs);
+}
+
+.login-card input[type='text'],
+.login-card input[type='password'] {
+  padding: 0.7rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  background-color: var(--color-white);
+}
+
+.login-card__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin: var(--space-sm) 0;
+}
+
+.login-card__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 400 !important;
+  margin: 0 !important;
+}
+
+.login-card__row a:hover {
+  color: var(--color-oxblood);
+}
+
+.login-card__link-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.85rem;
+  font-family: inherit;
+  color: var(--color-charcoal);
+  text-decoration: underline;
+}
+
+.login-card__link-btn:hover {
+  color: var(--color-oxblood);
+}
+
+.login-card__notice {
+  background-color: #f5efe0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-sm);
+  font-size: 0.85rem;
+  color: #6b6858;
+  margin-bottom: var(--space-xs);
+}
+
+.login-card__submit {
+  width: 100%;
+  text-align: center;
+}
+
+.login-card__back {
+  display: block;
+  text-align: center;
+  margin-top: var(--space-lg);
+  font-size: 0.9rem;
+  color: #6b6858;
+}
+
+.login-card__back:hover {
+  color: var(--color-oxblood);
+}

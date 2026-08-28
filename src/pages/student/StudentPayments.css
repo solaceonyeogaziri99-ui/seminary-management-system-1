@@ -1,0 +1,43 @@
+.fee-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.fee-summary div {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.fee-summary span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #8a8672;
+}
+
+.fee-summary strong {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--color-ink);
+}
+
+.fee-summary__outstanding {
+  border-left: 4px solid var(--color-oxblood);
+}
+
+.fee-summary__outstanding strong {
+  color: var(--color-oxblood);
+}
+
+@media (max-width: 720px) {
+  .fee-summary {
+    grid-template-columns: 1fr;
+  }
+}

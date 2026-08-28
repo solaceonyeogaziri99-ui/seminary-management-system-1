@@ -1,0 +1,64 @@
+.result-table {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.result-table__header,
+.result-table__row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.6fr 0.6fr 0.6fr 0.8fr;
+  gap: var(--space-sm);
+  padding: 0.85rem var(--space-md);
+  align-items: center;
+}
+
+.result-table__header {
+  background-color: var(--color-parchment-dark);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b6858;
+  font-weight: 600;
+}
+
+.result-table__row {
+  border-top: 1px solid var(--color-border);
+  font-size: 0.92rem;
+}
+
+.grade-badge {
+  display: inline-block;
+  background-color: var(--color-ink);
+  color: var(--color-white);
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+  border-radius: var(--radius);
+}
+
+@media (max-width: 720px) {
+  .result-table__header {
+    display: none;
+  }
+
+  .result-table__row {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+    padding: var(--space-sm) var(--space-md);
+  }
+
+  .result-table__row span {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.88rem;
+  }
+
+  .result-table__row span::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #6b6858;
+    margin-right: var(--space-sm);
+  }
+}

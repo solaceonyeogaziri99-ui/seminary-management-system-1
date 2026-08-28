@@ -1,0 +1,75 @@
+.student-profile__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.student-profile__avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.student-profile__header h2 {
+  font-size: 1.4rem;
+}
+
+.student-profile__header p {
+  color: #6b6858;
+  font-size: 0.9rem;
+}
+
+.student-profile__edit-btn {
+  margin-left: auto;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+}
+
+.profile-field--wide {
+  grid-column: 1 / -1;
+}
+
+.profile-field label {
+  display: block;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #8a8672;
+  margin-bottom: 0.3rem;
+}
+
+.profile-field p {
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  font-weight: 500;
+}
+
+.profile-field input {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  background-color: var(--color-parchment);
+}
+
+@media (max-width: 640px) {
+  .student-profile__header {
+    flex-wrap: wrap;
+  }
+
+  .student-profile__edit-btn {
+    margin-left: 0;
+  }
+
+  .profile-grid {
+    grid-template-columns: 1fr;
+  }
+}
