@@ -33,9 +33,9 @@ function Contact() {
           <div className="contact-info">
             <h2>Get in Touch</h2>
             <ul>
-              <li><strong>Address:</strong> 412 Cathedral Row, Ashcombe, NY 12345</li>
-              <li><strong>Phone:</strong> (555) 013-4477</li>
-              <li><strong>Email:</strong> admissions@aldergate.edu</li>
+              <li><strong>Address:</strong>The Apostolic Church No. 103 Umuocham Rd Aba</li>
+              <li><strong>Phone:</strong>+2347062648248</li>
+              <li><strong>Email:</strong> admissions@Gloriousvision.edu</li>
               <li><strong>Office Hours:</strong> Mon&ndash;Fri, 9:00 AM&ndash;5:00 PM</li>
             </ul>
 

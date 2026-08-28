@@ -13,10 +13,10 @@ function Home() {
       <section className="hero">
         <div className="container hero__inner">
           <div className="hero__text">
-            <span className="eyebrow">Est. 1928</span>
+            <span className="eyebrow">Est. 2025</span>
             <h1>Forming faithful minds for a life of service.</h1>
             <p className="hero__lede">
-              Aldergate Theological Seminary equips pastors, scholars, and lay
+              Glorious Vision Theological Seminary equips pastors, scholars, and lay
               leaders through rigorous biblical education, formative
               community, and hands-on ministry practice.
             </p>
@@ -38,7 +38,7 @@ function Home() {
             <span className="eyebrow">Who We Are</span>
             <h2>A community shaped by Scripture and scholarship</h2>
             <p>
-              For nearly a century, Aldergate has trained men and women to
+              For nearly a century, GLOTIF has trained men and women to
               serve the church and the world with theological depth,
               pastoral wisdom, and intellectual honesty. Our graduates lead
               congregations, teach in classrooms, and serve communities
@@ -93,7 +93,7 @@ function Home() {
       <section className="section">
         <div className="container">
           <div className="section-heading">
-            <span className="eyebrow">Why Aldergate</span>
+            <span className="eyebrow">Why GLOTIF</span>
             <h2>What sets our seminary apart</h2>
           </div>
 
@@ -155,7 +155,7 @@ function Home() {
       <section className="cta">
         <div className="container cta__inner">
           <h2>Your calling deserves careful preparation.</h2>
-          <p>Applications for the Spring term are now open.</p>
+          <p>Applications for Next term are now open.</p>
           <Button to="/admissions" variant="primary">Begin Your Application</Button>
         </div>
       </section>

@@ -14,10 +14,9 @@ function About() {
         <div className="container about-block">
           <h2>Our History</h2>
           <p>
-            Aldergate Theological Seminary was founded in 1928 by a small
-            group of pastors who believed the region needed a school
+            Glorious Vision Theological Seminary was founded in 2025 by The Apostolic Church Aba Field who believed the region needed a school
             committed equally to academic rigor and practical ministry. What
-            began as a single classroom above a parish hall has grown into a
+            began as a single classroom above a Church hall has grown into a
             campus serving several hundred students from around the world,
             while holding fast to that founding conviction.
           </p>
@@ -76,16 +75,16 @@ function About() {
           </div>
           <div className="grid grid--3">
             <div className="about-block">
-              <h3>Dr. Eleanor Marsh</h3>
-              <p>Dean of Faculty, overseeing academic programs and curriculum.</p>
+              <h3>Juliet Nwokeocha, PhD</h3>
+              <p>Registerar, overseeing academic programs and curriculum.</p>
             </div>
             <div className="about-block">
-              <h3>Rev. Dr. Thomas Reyes</h3>
+              <h3>Apst M.O Onyenso </h3>
               <p>President, responsible for institutional direction and community life.</p>
             </div>
             <div className="about-block">
-              <h3>Rev. Daniel Whitfield</h3>
-              <p>Director of Pastoral Formation, overseeing student ministry placements.</p>
+              <h3>Apst Levi Ezinwa</h3>
+              <p>Deputy Rector and Professor of Old & New Testament, overseeing academic programs in biblical studies.</p>
             </div>
           </div>
         </div>

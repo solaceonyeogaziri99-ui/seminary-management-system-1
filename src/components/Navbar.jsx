@@ -27,9 +27,9 @@ function Navbar() {
     <header className="navbar">
       <div className="container navbar__inner">
         <NavLink to="/" className="navbar__brand" onClick={closeMenu}>
-          <span className="navbar__brand-mark">✝</span>
+          <span className="navbar__brand-mark"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/The_Apostolic_Church_logo.jpg/250px-The_Apostolic_Church_logo.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="" width={30} height={50} /></span>
           <span>
-            Aldergate
+            Glorious Vision
             <br />
             <small>Theological Seminary</small>
           </span>

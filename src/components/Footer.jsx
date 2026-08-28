@@ -8,8 +8,8 @@ function Footer() {
     <footer className="footer">
       <div className="container footer__grid">
         <div>
-          <h3 className="footer__brand">Aldergate Theological Seminary</h3>
-          <p className="footer__tagline">Forming faithful scholars and servant leaders since 1928.</p>
+          <h3 className="footer__brand">Glorious Vision Theological Seminary</h3>
+          <p className="footer__tagline">Forming faithful scholars and servant leaders since 2025.</p>
         </div>
 
         <div>
@@ -35,15 +35,15 @@ function Footer() {
         <div>
           <h4 className="footer__heading">Visit</h4>
           <address className="footer__address">
-            412 Cathedral Row<br />
-            Ashcombe, NY 12345<br />
-            (555) 013-4477
+            The Apostolic Church <br />
+            No 103 Umuocha Rd<br />
+            +2348032938393
           </address>
         </div>
       </div>
 
       <div className="container footer__bottom">
-        <p>&copy; {year} Aldergate Theological Seminary. All rights reserved.</p>
+        <p>&copy; {year} Glorious Vision Theological Seminary. All rights reserved.</p>
       </div>
     </footer>
   );
